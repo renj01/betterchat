@@ -66,9 +66,7 @@ export const modelMaxToken = {
   'llama-3.2-90b-vision-preview': 32768,
   'llama-3.1-70b-versatile': 32768,
   'gemma2-9b-it': 32768,
-  'mixtral-8x7b-32768': 32768
-  
-  '
+  'mixtral-8x7b-32768': 32768,
 };
 
 export const modelCost = {
