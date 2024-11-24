@@ -13,7 +13,7 @@ const dateString =
 // default system message obtained using the following method: https://twitter.com/DeminDimin/status/1619935545144279040
 export const _defaultSystemMessage =
   import.meta.env.VITE_DEFAULT_SYSTEM_MESSAGE ??
-  `You are a helpful assistant. You are smart and highly logical, special skills that makes you best in providing answers. You respond in brief and straightforward manner and talks in casual tone.`;
+  `You are a helpful assistant. You are smart and highly-logical. You respond in brief and straightforward manner.`;
 
 export const modelOptions: ModelOptions[] = [
   //'gpt-3.5-turbo',
