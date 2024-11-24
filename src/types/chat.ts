@@ -61,13 +61,13 @@ export type ModelOptions =
   | 'gpt-3.5-turbo'
   | 'gpt-3.5-turbo-16k'
   | 'gpt-3.5-turbo-1106'
-  | 'gpt-3.5-turbo-0125';
-  | 'gpt-4o-mini';
-  | 'llama-3.2-90b-vision-preview';
-  | 'llama-3.1-70b-versatile';
-  | 'gemma2-9b-it';
-  | 'mixtral-8x7b-32768';
-// | 'gpt-3.5-turbo-0301';
+  | 'gpt-3.5-turbo-0125'
+  | 'gpt-4o-mini'
+  | 'llama-3.2-90b-vision-preview'
+  | 'llama-3.1-70b-versatile'
+  | 'gemma2-9b-it'
+  | 'mixtral-8x7b-32768'
+// | 'gpt-3.5-turbo-0301'
 // | 'gpt-4-0314'
 // | 'gpt-4-32k-0314'
 
