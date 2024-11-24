@@ -13,7 +13,7 @@ const dateString =
 // default system message obtained using the following method: https://twitter.com/DeminDimin/status/1619935545144279040
 export const _defaultSystemMessage =
   import.meta.env.VITE_DEFAULT_SYSTEM_MESSAGE ??
-  `You are a helpful assistant. You are smart and highly-logical. You respond in brief and straightforward manner.`;
+  `You are a helpful assistant.`;
 
 export const modelOptions: ModelOptions[] = [
   //'gpt-3.5-turbo',
@@ -38,7 +38,7 @@ export const modelOptions: ModelOptions[] = [
   // 'gpt-4-32k-0314',
 ];
 
-export const defaultModel = 'llama-3.2-90b-vision-preview';
+export const defaultModel = 'gpt-4o-mini';
 
 export const modelMaxToken = {
   'gpt-3.5-turbo': 4096,
