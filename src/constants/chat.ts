@@ -28,7 +28,7 @@ export const modelOptions: ModelOptions[] = [
   //'gpt-4-turbo-2024-04-09',
   'gpt-4o',
   'gpt-4o-mini',
-  'gpt-4o-mini-northflank',
+  //'gpt-4o-mini-northflank',
   'llama-3.2-90b-vision-preview',
   'llama-3.1-70b-versatile',
   'gemma2-9b-it',
