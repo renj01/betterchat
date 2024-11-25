@@ -28,6 +28,7 @@ export const modelOptions: ModelOptions[] = [
   //'gpt-4-turbo-2024-04-09',
   'gpt-4o',
   'gpt-4o-mini',
+  'gpt-4o-mini-northflank',
   'llama-3.2-90b-vision-preview',
   'llama-3.1-70b-versatile',
   'gemma2-9b-it',
@@ -61,6 +62,7 @@ export const modelMaxToken = {
   'gpt-4o': 128000,
   'gpt-4o-2024-05-13': 128000,
   'gpt-4o-mini': 32768,
+  'gpt-4o-mini-northflank': 32768,
   'llama-3.2-90b-vision-preview': 32768,
   'llama-3.1-70b-versatile': 32768,
   'gemma2-9b-it': 32768,
@@ -161,6 +163,10 @@ export const modelCost = {
     completion: { price: 0.015, unit: 1000 },
   },
   'mixtral-8x7b-32768': {
+    prompt: { price: 0.005, unit: 1000 },
+    completion: { price: 0.015, unit: 1000 },
+  },
+  'gpt-4o-mini-northflank': {
     prompt: { price: 0.005, unit: 1000 },
     completion: { price: 0.015, unit: 1000 },
   },
