@@ -33,13 +33,14 @@ export const modelOptions: ModelOptions[] = [
   'llama-3.1-70b-versatile',
   'gemma2-9b-it',
   'mixtral-8x7b-32768',
+  'meta-llama/llama-3.1-70b-instruct:free',
   //'gpt-4o-2024-05-13',
   // 'gpt-3.5-turbo-0301',
   // 'gpt-4-0314',
   // 'gpt-4-32k-0314',
 ];
 
-export const defaultModel = 'gpt-4o-mini';
+export const defaultModel = 'meta-llama/llama-3.1-70b-instruct:free';
 
 export const modelMaxToken = {
   'gpt-3.5-turbo': 4096,
@@ -67,6 +68,7 @@ export const modelMaxToken = {
   'llama-3.1-70b-versatile': 32768,
   'gemma2-9b-it': 32768,
   'mixtral-8x7b-32768': 32768,
+  'meta-llama/llama-3.1-70b-instruct:free': 32768,
 };
 
 export const modelCost = {
@@ -166,7 +168,7 @@ export const modelCost = {
     prompt: { price: 0.005, unit: 1000 },
     completion: { price: 0.015, unit: 1000 },
   },
-  'gpt-4o-mini-northflank': {
+  'meta-llama/llama-3.1-70b-instruct:free': {
     prompt: { price: 0.005, unit: 1000 },
     completion: { price: 0.015, unit: 1000 },
   },
