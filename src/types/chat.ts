@@ -68,6 +68,7 @@ export type ModelOptions =
   | 'gemma2-9b-it'
   | 'mixtral-8x7b-32768'
   | 'gpt-4o-mini-northflank'
+  | 'meta-llama/llama-3.1-70b-instruct:free'
 // | 'gpt-3.5-turbo-0301'
 // | 'gpt-4-0314'
 // | 'gpt-4-32k-0314'
