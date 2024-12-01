@@ -40,7 +40,7 @@ export const modelOptions: ModelOptions[] = [
   // 'gpt-4-32k-0314',
 ];
 
-export const defaultModel = 'meta-llama/llama-3.1-70b-instruct:free';
+export const defaultModel = 'llama-3.1-70b-versatile';
 
 export const modelMaxToken = {
   'gpt-3.5-turbo': 4096,
